@@ -22,7 +22,7 @@ module MyVagrantHostPlugin
     # as an argument to `host`. For example `host(:myhostplugin, :linux)`
     # sets the parent plugin to be the linux host plugin. 
     host(:myhostplugin) do
-      host
+      Host
     end
 
     # TODO: define host capabilities. The first argument should 
